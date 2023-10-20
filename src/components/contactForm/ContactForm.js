@@ -24,7 +24,7 @@ export const ContactForm = ({
         />
         <input
           type="tel"
-          placeholder="Phone Number"
+          placeholder="Phone Number (+316 +8digits)"
           pattern="\+316\d{8}"
           value={phone}
           onChange={handleInputChange(setPhone)}
